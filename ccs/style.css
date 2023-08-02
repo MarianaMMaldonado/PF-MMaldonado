@@ -1,3 +1,48 @@
-*{
-    margin: 0;
+/* FONT FAMILY */
+@font-face {
+    font-family: hello;
+    src: url(../assets/font/Hello.otf);
+}
+
+@font-face {
+    font-family: butter;
+    src: url(../assets/font/BUTTERSHINE\ SERIF.otf);
+}
+
+@font-face {
+    font-family: timesst;
+    src: url(../assets/font/TIMESS__.ttf);
+}
+/* HEADER */
+
+.menuText{
+    font-family: "timesst";
+    color: #004AAD;
+    background-color: #EDF3FF;
+}
+
+.inicioFoto{
+    background-image: url(../assets/img/_DSC1081.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 55%;
+    height: 100%;
+}
+
+/* MAIN */
+
+.textInicio{
+    color: rgb(234, 234, 241);
+    font-family: "hello";
+    text-align: center;
+    padding-top: 200px;
+}
+
+.textIniciodos{
+    color: rgb(234, 234, 241);
+    font-family: "timesst";
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
 }
