@@ -47,7 +47,7 @@
     flex: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 165px;
     size: 80%;
 }
 
@@ -70,7 +70,7 @@
 
 .lugarUno{
     padding-top: 10px;
-    font-family: "butter";
+    font-family: "timesst";
     text-align: center;
     color: #EDF3FF;
 }
@@ -79,6 +79,28 @@
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
+}
+
+.mesaDregalos .textmDr h1{
+    color: #EDF3FF;
+    text-align: center;
+    font-family: "timesst";
+    font-size: 40px;
+}
+
+.mesaDregalos .textmDr h2{
+    color: #EDF3FF;
+    text-align: center;
+    font-family: "timesst";
+    font-size: 20px;
+    margin-bottom: 22px;
+}
+
+.mesaDregalos .textmDr h3{
+    color: #EDF3FF;
+    text-align: center;
+    font-family: "timesst";
+    font-size: 20px;
 }
 
 
