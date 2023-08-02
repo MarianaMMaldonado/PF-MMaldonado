@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /* FONT FAMILY */
 @font-face {
     font-family: hello;
@@ -16,10 +21,13 @@
 /* HEADER */
 
 .menuText{
-    font-family: "timesst";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #004AAD;
     background-color: #EDF3FF;
+    text-decoration: none;
 }
+
+/* MAIN */
 
 .inicioFoto{
     background-image: url(../assets/img/_DSC1081.jpg);
@@ -30,19 +38,109 @@
     height: 100%;
 }
 
-/* MAIN */
+.logoInicio{
+    display: flex;
+    flex: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    size: 80%;
+}
 
 .textInicio{
-    color: rgb(234, 234, 241);
+    color: #EDF3FF;
     font-family: "hello";
     text-align: center;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .textIniciodos{
-    color: rgb(234, 234, 241);
+    color: #EDF3FF;
     font-family: "timesst";
     text-align: center;
     font-size: 1.5rem;
     padding-bottom: 10px;
 }
+
+/* FOOTER */
+
+.piePagina{
+    width: 100%;
+    background-color: #EDF3FF;
+}
+
+.piePagina .grupoUno{
+    width: 100%;
+    max-width: 1200px;
+    height: 80px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 20px 0px;
+}
+
+.piePagina .grupoUno .box figure{
+   width: 100%;
+   height: 20%;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 25px;
+}
+
+.piePagina .grupoUno .box figure img{
+   width: 50px;
+   justify-content: center;
+}
+
+.piePagina .grupoUno .box h2{
+    color: #004AAD;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "timesst";
+ }
+
+ .piePagina .grupoUno .redSocial a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #004AAD;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+ }
+
+ .piePagina .grupoUno .redSocial a:hover{
+    color: #F1E077;
+ }
+
+ .piePagina .grupoDos{
+    text-align: center;
+    background-color: #EDF3FF;
+    color: #004AAD;
+    padding: 10px 0px;
+    font-size: 15px;
+    font-family: "timesst";
+ }
+
+ @media screen and (max-width:768px){
+    .piePagina .grupoUno{
+        width: 90%;
+        height: auto;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .logoInicio{
+        display: flex;
+        flex: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        size: 25%;
+    }
+    
+ }
