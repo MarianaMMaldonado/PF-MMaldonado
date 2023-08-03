@@ -233,10 +233,6 @@
     .mesaDregalos .textmDr h3{
         font-size: 10px;
     }
-
-    #lugarDiv{
-        display: flex;
-    }
     
     .lugarUno{
         background-position: center;
