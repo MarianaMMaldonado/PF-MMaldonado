@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* FONT FAMILY */
@@ -83,17 +84,26 @@
     margin-left: 100px;
 }
 
+#lugarDiv{
+    display: flex;
+}
+
 .lugarUno{
-    padding-top: 10px;
+    background-image: url(../assets/img/lugar.png);
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 80.7vh;
+}
+
+.lugarDos{
+    height: 80.7vh;
+    width: 50%;
+    justify-content: center;
     font-family: "timesst";
     text-align: center;
     color: #004AAD;
-}
-
-.lugarSalon{
     display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
 }
 
 .mesaDregalos .textmDr h1{
@@ -118,38 +128,17 @@
     font-size: 20px;
 }
 
-.comida{
-    width: 100%;
-    font-family: "butter";
-    text-align: center;
+.hotel{
     color: #004AAD;
-    padding-top: 20px;
+    font-family: Helvetica, sans-serif;
 }
 
-.comida .tiemposComida{
-    width: 100%;
-    max-width: 1200px;
-    height: auto;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:50px;
-    padding: 50px 0px;
-}
-
-.comida .tiemposComida .box h1{
-    font-family: "butter";
-    font-size: 30px;
-    text-align: center;
-    color: #004AAD;
-    margin-top: 15px;
-}
-
-.comida .tiemposComida .box h2{
-    font-family: "timesst";
-    font-size: 20px;
-    text-align: center;
-    color: #004AAD;
+.fondoConfirm{
+    background-image: url(../assets/img/fondoconfirm.jpg);
+    height: 80.7vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* FOOTER */
@@ -243,4 +232,22 @@
     .mesaDregalos .textmDr h3{
         font-size: 10px;
     }
+
+    #lugarDiv{
+        display: flex;
+    }
+    
+    .lugarUno{
+        background-position: center;
+        height: 80.7vh;
+    }
+    
+    .lugarDos{
+        height: 80.7vh;
+        justify-content: center;
+        font-family: "timesst";
+        text-align: center;
+        color: #004AAD;
+    }
+
  }
