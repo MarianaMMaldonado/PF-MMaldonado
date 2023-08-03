@@ -131,6 +131,8 @@
 .hotel{
     color: #004AAD;
     font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .fondoConfirm{
