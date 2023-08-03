@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* FONT FAMILY */
@@ -21,16 +22,15 @@
 /* HEADER */
 
 .menuText{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #004AAD;
-    background-color: #EDF3FF;
+    font-family: Helvetica, sans-serif;
+    background-color: white;
     text-decoration: none;
 }
 
 /* MAIN */
 
 .bgColor{
-    background-color: #004AAD;
+    background-color: #EDF3FF;
 }
 
 .inicioFoto{
@@ -42,51 +42,111 @@
     height: 100%;
 }
 
-.logoInicio{
+.izquierda{
+    background-color: #F1E077;
+    height: 80.7vh;
+    width: 50%;
+}
+
+.derecha{
+    background-image: url(../assets/img/_DSC1081.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 80.7vh;
+}
+
+#pantallaDiv{
     display: flex;
-    flex: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-    size: 80%;
 }
 
-.textInicio{
+.wedding{
     color: #EDF3FF;
-    font-family: "butter";
-    font-size: 20px;
-    text-align: center;
-    padding-top: 100px;
 }
 
-.textIniciodos{
-    color: #EDF3FF;
+.izquierda h1{
+    font-family: Helvetica, sans-serif;
+    width: 50%;
+    margin: auto;
+    color: #004AAD;
+    font-size: 60px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.izquierda p{
     font-family: "timesst";
-    text-align: center;
-    font-size: 1.5rem;
-    padding-bottom: 10px;
-    margin-bottom: 0px;
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 100px;
+}
+
+#lugarDiv{
+    display: flex;
 }
 
 .lugarUno{
-    padding-top: 10px;
-    font-family: "butter";
-    text-align: center;
-    color: #EDF3FF;
+    background-image: url(../assets/img/lugar.png);
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 80.7vh;
 }
 
-.lugarSalon{
-    display: flex;
+.lugarDos{
+    height: 80.7vh;
+    width: 50%;
     justify-content: center;
-    margin-bottom: 15px;
+    font-family: "timesst";
+    text-align: center;
+    color: #004AAD;
+    display: flex;
 }
 
+.mesaDregalos .textmDr h1{
+    color: #004AAD;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.mesaDregalos .textmDr h2{
+    color: #004AAD;
+    text-align: center;
+    font-family: "timesst";
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.mesaDregalos .textmDr h3{
+    color: #004AAD;
+    text-align: center;
+    font-family: "timesst";
+    font-size: 20px;
+}
+
+.hotel{
+    color: #004AAD;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.fondoConfirm{
+    background-image: url(../assets/img/fondoconfirm.jpg);
+    height: 80.7vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* FOOTER */
 
 .piePagina{
     width: 100%;
-    background-color: #EDF3FF;
 }
 
 .piePagina .grupoUno{
@@ -114,7 +174,6 @@
 }
 
 .piePagina .grupoUno .box h2{
-    color: #004AAD;
     margin-bottom: 25px;
     font-size: 20px;
     text-align: center;
@@ -123,11 +182,11 @@
 
  .piePagina .grupoUno .redSocial a{
     display: inline-block;
+    color: grey;
     text-decoration: none;
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: #004AAD;
     margin-right: 10px;
     text-align: center;
     transition: all 300ms ease;
@@ -139,8 +198,6 @@
 
  .piePagina .grupoDos{
     text-align: center;
-    background-color: #EDF3FF;
-    color: #004AAD;
     padding: 10px 0px;
     font-size: 15px;
     font-family: "timesst";
@@ -155,8 +212,6 @@
     }
 
     .textInicio{
-        color: #EDF3FF;
-        text-align: center;
         padding-top: 20px;
     }
     .logoInicio{
@@ -167,5 +222,34 @@
         padding: 50px;
         size: 25%;
     }
+    .mesaDregalos .textmDr h1{
+        font-size: 20px;
+    }
     
+    .mesaDregalos .textmDr h2{
+        font-size: 10px;
+        margin-bottom: 22.5px;
+    }
+    
+    .mesaDregalos .textmDr h3{
+        font-size: 10px;
+    }
+
+    #lugarDiv{
+        display: flex;
+    }
+    
+    .lugarUno{
+        background-position: center;
+        height: 80.7vh;
+    }
+    
+    .lugarDos{
+        height: 80.7vh;
+        justify-content: center;
+        font-family: "timesst";
+        text-align: center;
+        color: #004AAD;
+    }
+
  }
