@@ -198,17 +198,6 @@
         text-align: center;
     }
 
-    .textInicio{
-        padding-top: 20px;
-    }
-    .logoInicio{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 50px;
-        size: 25%;
-    }
     .mesaDregalos .textmDr h1{
         font-size: 20px;
     }
@@ -220,19 +209,6 @@
     
     .mesaDregalos .textmDr h3{
         font-size: 10px;
-    }
-    
-    .lugarUno{
-        background-position: center;
-        height: 80.7vh;
-    }
-    
-    .lugarDos{
-        height: 80.7vh;
-        justify-content: center;
-        font-family: "timesst";
-        text-align: center;
-        color: #004AAD;
     }
 
     #pantallaDiv{
@@ -251,7 +227,7 @@
     }
  }
 
- @media screen and (max-width: 575px){
+ @media (max-width: 1171px) and (min-width:991px){
     .izquierda h1{
         font-size: 40px;
         margin-bottom: 40px;
@@ -264,21 +240,17 @@
         margin-bottom: 10px;
     }
  }
-    
- }
 
- @media (max-width:375px){
+ @media (max-width: 575px) and (min-width:350px){
     .izquierda h1{
-        font-size: 30px;
-        margin-bottom: 20px;
-        margin-top: 40px;
+        font-size: 40px;
+        margin-bottom: 40px;
+        margin-top: 60px;
         margin-left: 100px;
     }
     
     .izquierda p{
-        margin: auto;
         font-size: 20px;
         margin-bottom: 10px;
     }
-    
  }
