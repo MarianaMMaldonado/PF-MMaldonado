@@ -127,6 +127,14 @@
     font-size: 20px;
 }
 
+.fondoLugar{
+    background-image: url(../assets/img/mapa.png);
+    height: 80.7vh;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .hotel{
     color: #004AAD;
     font-family: Helvetica, sans-serif;
