@@ -142,6 +142,10 @@
     margin-top: 30px;
 }
 
+.botonColor{
+    background-color: #F1E077;
+}
+
 .fondoConfirm{
     background-image: url(../assets/img/fondoconfirm.jpg);
     height: 80.7vh;
