@@ -37,6 +37,11 @@
     height: 100%;
 }
 
+#pantallaDiv{
+    display: flex;
+    flex-direction: row;
+}
+
 .izquierda{
     background-color: #F1E077;
     height: 80.7vh;
@@ -49,10 +54,6 @@
     background-position: center;
     width: 50%;
     height: 80.7vh;
-}
-
-#pantallaDiv{
-    display: flex;
 }
 
 .wedding{
@@ -79,27 +80,6 @@
     margin-left: 100px;
 }
 
-#lugarDiv{
-    display: flex;
-}
-
-.lugarUno{
-    background-image: url(../assets/img/lugar.png);
-    background-size: cover;
-    background-position: center;
-    width: 70%;
-    height: 80.7vh;
-}
-
-.lugarDos{
-    height: 80.7vh;
-    width: 50%;
-    justify-content: center;
-    font-family: "timesst";
-    text-align: center;
-    color: #004AAD;
-    display: flex;
-}
 
 .mesaDregalos .textmDr h1{
     color: #004AAD;
@@ -223,7 +203,7 @@
     }
     .logoInicio{
         display: flex;
-        flex: column;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 50px;
@@ -255,4 +235,50 @@
         color: #004AAD;
     }
 
+    #pantallaDiv{
+        flex-direction: column;
+    }
+
+    .izquierda{
+        background-color: #F1E077;
+        height: 80.7vh;
+        width: 100%;
+    }
+    
+    .derecha{
+        width: 100%;
+        height: 80.7vh;
+    }
+ }
+
+ @media screen and (max-width: 575px){
+    .izquierda h1{
+        font-size: 40px;
+        margin-bottom: 40px;
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+    
+    .izquierda p{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+ }
+    
+ }
+
+ @media (max-width:375px){
+    .izquierda h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+    
+    .izquierda p{
+        margin: auto;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
  }
