@@ -223,6 +223,8 @@
 
     #pantallaDiv{
         flex-direction: column;
+        flex-wrap: start;
+        height: 100%;
     }
 
     .izquierda{
@@ -239,6 +241,7 @@
     
     .izquierdaMd{
         width: 100%;
+        height: auto;
     }
     
     .derechaMd{
@@ -273,11 +276,7 @@
     }
  }
 
- @media (max-width: 575px) and (min-width:350px){
-    .izquierda{
-        width: 0%;
-    }
-    
+ @media (max-width: 575px) and (min-width:320px){
     .izquierda h1{
         font-size: 40px;
         margin-bottom: 40px;
@@ -287,8 +286,9 @@
     
     .izquierda p{
         font-size: 20px;
-        width: 0%;
+        width: 50%;
         margin-bottom: 10px;
+        margin-left: 100px;
     }
 
     .derechaMd h1{
