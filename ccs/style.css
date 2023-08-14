@@ -5,31 +5,28 @@
 
 /* FONT FAMILY */
 @font-face {
-    font-family: hello;
-    src: url(../assets/font/Hello.otf);
-}
-
-@font-face {
-    font-family: butter;
-    src: url(../assets/font/BUTTERSHINE\ SERIF.otf);
-}
-
-@font-face {
     font-family: timesst;
     src: url(../assets/font/TIMESS__.ttf);
 }
+
+@font-face {
+    font-family: Caviar;
+    src: url(../assets/tercera_entrega/fonts/CaviarDreams.ttf);
+}
+
 /* HEADER */
 
 .menuText{
-    font-family: Helvetica, sans-serif;
-    background-color: white;
+    font-family: "timesst";
+    background-color: #DD7E1E;
     text-decoration: none;
+    color: #F9F6F4;
 }
 
 /* MAIN */
 
 .bgColor{
-    background-color: #EDF3FF;
+    background-color: #EFE3D3;
 }
 
 .inicioFoto{
@@ -146,6 +143,7 @@
 
 .piePagina{
     width: 100%;
+    background-color: #DD7E1E;
 }
 
 .piePagina .grupoUno{
@@ -174,6 +172,7 @@
 
 .piePagina .grupoUno .box h2{
     margin-bottom: 25px;
+    color: #F9F6F4;
     font-size: 20px;
     text-align: center;
     font-family: "timesst";
@@ -181,7 +180,7 @@
 
  .piePagina .grupoUno .redSocial a{
     display: inline-block;
-    color: grey;
+    color: #F9F6F4;
     text-decoration: none;
     width: 45px;
     height: 45px;
@@ -192,7 +191,7 @@
  }
 
  .piePagina .grupoUno .redSocial a:hover{
-    color: #F1E077;
+    color: #191817;
  }
 
  .piePagina .grupoDos{
@@ -200,6 +199,7 @@
     padding: 10px 0px;
     font-size: 15px;
     font-family: "timesst";
+    color: #F9F6F4;
  }
 
  @media screen and (max-width:768px){
