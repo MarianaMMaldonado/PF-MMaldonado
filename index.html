@@ -12,6 +12,9 @@
 <body>
 <!-- cambio de color tipografía header -->
     <header>
+      <div class="bGColor d-flex justify-content-center">
+        <img src="./assets/tercera_entrega/img//logo_250x100px-02.png" alt="logo">
+      </div>
         <div>
           <nav class="menuText navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -42,13 +45,28 @@
     </header>
 
     <main>
-        <section id="pantallaDiv">
-            <div class="izquierda">
-              <h1> <span class="wedding">WEDDING</span> RAQUEL Y ANDRES</h1>
-              <p>When you meet the person, you know it. You can't stop thinking about them. The're your best friend and you soulmate. You cant wait to spend the rest of your life with them. No one nothing else can compare.</p>
-              <p>- HIMYM</p>
+        <section>
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/tercera_entrega/img/carrusel_1-01.png" class="d-block w-100" alt="myc">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/tercera_entrega/img/carrusel_2-01.png" class="d-block w-100" alt="ayr">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/tercera_entrega/img/carrusel_3-01.png" class="d-block w-100" alt="nym">
+              </div>
             </div>
-            <div class="derecha"></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </section>
     </main>
 
