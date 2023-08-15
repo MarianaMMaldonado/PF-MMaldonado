@@ -32,7 +32,7 @@
     padding: 20px;
 }
 
-.teamUno h1{
+.teamUno h2{
     color: #DD7E1E;
     font-family: "timesst";
 }
@@ -46,7 +46,7 @@
     padding: 20px;
 }
 
-.teamDos h1{
+.teamDos h2{
     color: #DD7E1E;
     font-family: "timesst";
 } 
@@ -172,6 +172,8 @@
     font-family: "timesst";
     color: #F9F6F4;
  }
+
+/* MEDIA QUERIS */
 
  @media screen and (max-width:768px){
     .piePagina .grupoUno{
