@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: Caviar;
+    font-family: caviar;
     src: url(../assets/tercera_entrega/fonts/CaviarDreams.ttf);
 }
 
@@ -27,6 +27,29 @@
 .bGColor{
     background-color: #EFE3D3;
 }
+
+.teamUno{
+    padding: 20px;
+}
+
+.teamUno h1{
+    color: #DD7E1E;
+    font-family: "timesst";
+}
+
+.teamUno p{
+    color: #191817;
+    font-family: "caviar";
+}
+
+.teamDos{
+    padding: 20px;
+}
+
+.teamDos h1{
+    color: #DD7E1E;
+    font-family: "timesst";
+} 
 
 #lugarDiv{
     display: flex;
