@@ -1,0 +1,77 @@
+%!Adobe-FontList 1.20
+%Locale:0x80a
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ButtershineSerif
+FamilyName:Buttershine Serif
+StyleName:Regular
+FullName:Buttershine Serif
+MenuName:Buttershine Serif
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Mariana\Desktop\segunda_preentrega\assets\Font\BUTTERSHINE SERIF.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:26512
+FileModTime:1691001518
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Buttershine Serif
+NameArray:0,Win,1,Buttershine Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HelloRegular
+FamilyName:Hello
+StyleName:Regular
+FullName:Hello
+MenuName:Hello
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Mariana\Desktop\segunda_preentrega\assets\Font\Hello.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:319800
+FileModTime:1691001518
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Hello
+NameArray:0,Win,1,Hello
+NameArray:0,Win,16,Hello
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:TimesSansSerif
+FamilyName:Times Sans Serif
+StyleName:Regular
+FullName:Times Sans Serif
+MenuName:Times Sans Serif
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Mariana\Desktop\segunda_preentrega\assets\Font\TIMESS__.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:253852
+FileModTime:1691001518
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Times Sans Serif
+NameArray:0,Win,1,Times Sans Serif
+%EndFont
+
