@@ -1,3 +1,13 @@
-
+@font-face {
+  font-family: timesst;
+  src: url(../assets/font/TIMESS__.ttf);
+}
+@font-face {
+  font-family: caviar;
+  src: url(../assets/tercera_entrega/fonts/CaviarDreams.ttf);
+}
+header div .menuText div div ul li a {
+  color: blue;
+}
 
 /*# sourceMappingURL=style.css.map */
