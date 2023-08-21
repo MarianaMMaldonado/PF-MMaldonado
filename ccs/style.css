@@ -97,7 +97,7 @@
 
 .piePagina .grupoUno .box h2{
     margin-bottom: 25px;
-    color: #F9F6F4;
+    color: #c1c1b0;
     font-size: 20px;
     text-align: center;
     font-family: "timesst";
@@ -105,7 +105,7 @@
 
  .piePagina .grupoUno .redSocial a{
     display: inline-block;
-    color: #F9F6F4;
+    color: #c1c1b0;
     text-decoration: none;
     width: 45px;
     height: 45px;
@@ -124,7 +124,7 @@
     padding: 10px 0px;
     font-size: 15px;
     font-family: "timesst";
-    color: #F9F6F4;
+    color: #c1c1b0;
  }
 
 /* MEDIA QUERIS */

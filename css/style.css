@@ -6,8 +6,11 @@
   font-family: caviar;
   src: url(../assets/tercera_entrega/fonts/CaviarDreams.ttf);
 }
-header div .menuText div div ul li a {
-  color: blue;
+.menuText {
+  font-family: "timesst";
+  background-color: #EFE3D3;
+  text-decoration: none;
+  color: #DD7E1E;
 }
 
 /*# sourceMappingURL=style.css.map */
