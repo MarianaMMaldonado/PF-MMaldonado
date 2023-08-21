@@ -51,61 +51,6 @@
     font-family: "timesst";
 } 
 
-
-
-
-
-#lugarDiv{
-    display: flex;
-}
-
-.lugarUno{
-    background-image: url(../assets/img/lugar.png);
-    background-size: cover;
-    background-position: center;
-    width: 70%;
-    height: 80.7vh;
-}
-
-.lugarDos{
-    height: 80.7vh;
-    width: 50%;
-    justify-content: center;
-    font-family: "timesst";
-    text-align: center;
-    color: #004AAD;
-    display: flex;
-}
-
-.mesaDregalos .textmDr h1{
-    color: #004AAD;
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-size: 40px;
-}
-
-.mesaDregalos .textmDr h2{
-    color: #004AAD;
-    text-align: center;
-    font-family: "timesst";
-    font-size: 20px;
-    margin-bottom: 45px;
-}
-
-.mesaDregalos .textmDr h3{
-    color: #004AAD;
-    text-align: center;
-    font-family: "timesst";
-    font-size: 20px;
-}
-
-.hotel{
-    color: #004AAD;
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    margin-top: 30px;
-}
-
 .fondoConfirm{
     background-image: url(../assets/tercera_entrega/img/ejem-boda.jpg);
     height: 80.7vh;
