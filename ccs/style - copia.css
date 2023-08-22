@@ -42,6 +42,11 @@
     font-family: "caviar";
 }
 
+.teamUno li{
+    color: #191817;
+    font-family: "caviar";
+}
+
 .teamDos{
     padding: 20px;
 }
@@ -51,63 +56,8 @@
     font-family: "timesst";
 } 
 
-
-
-
-
-#lugarDiv{
-    display: flex;
-}
-
-.lugarUno{
-    background-image: url(../assets/img/lugar.png);
-    background-size: cover;
-    background-position: center;
-    width: 70%;
-    height: 80.7vh;
-}
-
-.lugarDos{
-    height: 80.7vh;
-    width: 50%;
-    justify-content: center;
-    font-family: "timesst";
-    text-align: center;
-    color: #004AAD;
-    display: flex;
-}
-
-.mesaDregalos .textmDr h1{
-    color: #004AAD;
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-size: 40px;
-}
-
-.mesaDregalos .textmDr h2{
-    color: #004AAD;
-    text-align: center;
-    font-family: "timesst";
-    font-size: 20px;
-    margin-bottom: 45px;
-}
-
-.mesaDregalos .textmDr h3{
-    color: #004AAD;
-    text-align: center;
-    font-family: "timesst";
-    font-size: 20px;
-}
-
-.hotel{
-    color: #004AAD;
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    margin-top: 30px;
-}
-
 .fondoConfirm{
-    background-image: url(../assets/img/fondoconfirm.jpg);
+    background-image: url(../assets/tercera_entrega/img/ejem-boda.jpg);
     height: 80.7vh;
     background-position: center center;
     background-repeat: no-repeat;
@@ -147,7 +97,7 @@
 
 .piePagina .grupoUno .box h2{
     margin-bottom: 25px;
-    color: #F9F6F4;
+    color: #c1c1b0;
     font-size: 20px;
     text-align: center;
     font-family: "timesst";
@@ -155,7 +105,7 @@
 
  .piePagina .grupoUno .redSocial a{
     display: inline-block;
-    color: #F9F6F4;
+    color: #c1c1b0;
     text-decoration: none;
     width: 45px;
     height: 45px;
@@ -174,7 +124,7 @@
     padding: 10px 0px;
     font-size: 15px;
     font-family: "timesst";
-    color: #F9F6F4;
+    color: #c1c1b0;
  }
 
 /* MEDIA QUERIS */
