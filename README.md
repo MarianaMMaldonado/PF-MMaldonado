@@ -8,6 +8,7 @@ Made use of:
 Code with HTML structure.
 CSS language.
 Bootstrap v5.3  library.
+AOS Animate
 
 Project made for pre-delivery number 3 of the CoderHouse Web Development course.
 
