@@ -1,29 +1,17 @@
 .teamUno {
   padding: 20px;
 }
-
-.teamUno h2 {
+.teamUno .teamUno h2 {
   color: "c-primary";
   font-family: "timesst";
 }
-
-.teamUno p {
+.teamUno .teamUno p {
   color: #191817;
   font-family: "caviar";
 }
-
-.teamUno li {
+.teamUno .teamUno li {
   color: "c-secundary";
   font-family: "caviar";
-}
-
-.teamDos {
-  padding: 20px;
-}
-
-.teamDos h2 {
-  color: "c-primary";
-  font-family: "timesst";
 }
 
 /*# sourceMappingURL=page_one.css.map */
