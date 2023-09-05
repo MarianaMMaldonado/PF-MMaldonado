@@ -64,6 +64,10 @@
     background-size: cover;
 }
 
+.cardStyle{
+    width: 18rem !important;
+}
+
 .whatsapp{
     background-color: #DD7E1E;
     padding: 4px;
