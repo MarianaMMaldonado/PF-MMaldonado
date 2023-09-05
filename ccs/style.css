@@ -64,6 +64,35 @@
     background-size: cover;
 }
 
+.whatsapp{
+    background-color: #DD7E1E;
+    padding: 4px;
+    border: 0;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #efe3d3;
+ }
+
+ .preguntasF button{
+    box-shadow: none !important;
+ }
+ .preguntasF h2 button{
+    background-color: #f9f6f4 !important;
+    font-family: "timesst";
+    color: #DD7E1E;
+ }
+
+ .preguntasF div{
+    background-color: #efe3d3;
+    font-family: "caviar";
+    color: #191817;
+ }
+
+ .tyc {
+    text-decoration: none;
+    font-family: "timesst";
+    color: #c1c1b0;    
+ }
 
 /* FOOTER */
 
@@ -126,18 +155,6 @@
     font-size: 15px;
     font-family: "timesst";
     color: #c1c1b0;
- }
-
- button{
-    background-color: #DD7E1E;
-    padding: 4px;
-    border: 0;
- }
-
- a {
-    text-decoration: underline;
-    font-family: "caviar";
-    color: #EFE3D3;    
  }
 
 /* MEDIA QUERIS */
