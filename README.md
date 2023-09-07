@@ -1,4 +1,4 @@
-# PreEntrega3-MMaldonado
+# Poyecto Final-MMaldonado
 
 Hi!
 This is my proyect.
@@ -6,10 +6,10 @@ This is a page to visualize digital invitations and more.
 
 Made use of:
 Code with HTML structure.
-CSS language.
+CSS language + SCSS.
 Bootstrap v5.3  library.
 AOS Animate
 
-Project made for pre-delivery number 3 of the CoderHouse Web Development course.
+This is my page -> https://marianammaldonado.github.io/PF-MMaldonado/index.html
 
 Thanks for reading me (:
