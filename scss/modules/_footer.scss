@@ -1,0 +1,54 @@
+.piePagina{
+    width: 100%;
+    background: $beige;
+    .grupoUno{
+        width: 100%;
+        max-width: 1200px;
+        height: 80px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px;
+        padding: 20px 0px;
+        figure{
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+        img{
+            width: 50px;
+            justify-content: center;
+        }
+        .box h2 a{
+            font-family: $titulos;
+            margin-bottom: 25px;
+            color: $grey;
+            font-size: 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+        .redSocial a{
+            display: inline-block;
+            color: $grey;
+            text-decoration: none;
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            margin-right: 10px;
+            text-align: center;
+            transition: all 300ms ease;
+            &:hover{
+                color: $orange;
+            }
+        }
+    }
+    .grupoDos{
+        text-align: center;
+        padding: 10px 0px;
+        font-size: 15px;
+        font-family: $titulos;
+        color: $grey;
+    }
+}

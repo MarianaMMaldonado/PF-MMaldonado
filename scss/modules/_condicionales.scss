@@ -1,0 +1,26 @@
+// medias queris
+
+@media screen and (max-width:768px){
+    .piePagina .grupoUno{
+        width: 90%;
+        height: auto;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+ }
+
+ @media screen and (min-width:350px){
+ section{
+    article{
+        div{
+            .bgColormain{
+                .teamUno{
+                    font-size: 1rem;
+                    padding: 0%;
+                }
+             }
+         }
+     }  
+ } 
+}
+    

@@ -1,11 +1,11 @@
 {
   "name": "segunda_preentrega",
   "version": "1.0.0",
+  "description": "Hi!\r This is my proyect.\r This is a page to visualize digital invitations and more.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "description": "Hi!\r This is a wedding website template."
+  "license": "ISC"
 }
